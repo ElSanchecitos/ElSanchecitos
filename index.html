@@ -11,6 +11,9 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <header>
@@ -35,22 +38,22 @@
           </a>
         </div>
       </section>
-    </header>
-    <main>
-      <article>
-        <section class="nav-logo-container">
+      <section class="header-nav-container">
+        <div class="nav-logo-container">
           <a href="/">
             <img src="assets/imgs/Logo-negro.png" alt="Logo de mi blog" />
           </a>
-        </section>
-        <section class="profile-link">
+        </div>
+        <div class="profile-link">
           <a href="perfil.html">Sobre mí</a>
-        </section>
-        <section class="container-enter-blog">
-          <p>Conoce las novedades y noticias del mundo tech</p>
-          <!-- <button>Entra ya!</button> -->
-          <input type="button" value="Entra ya!">
-        </section>
+        </div>
+      </section>
+    </header>
+
+    <main id="home-main">
+      <article class="container-picture-main">
+        <p class="home-main-text">Conoce las novedades y noticias del mundo tech</p>
+        <a class="home-main-button" href="blogs.html">Entra ya!</a>
       </article>
     </main>
   </body>
